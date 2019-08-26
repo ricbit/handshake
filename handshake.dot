@@ -70,6 +70,8 @@ graph handshake {
   rigues [label="Rafael Rigues\n[Tech journalist]"]
   kogler [label="João Kogler\n[Physicist]"]
   nash [label="John Nash\n[Nash Equilibrium]"]
+  wolfram [label="Stephen Wolfram\n[Mathematica]"]
+  feynman [label="Richard Feynman\n[Quantum electrodynamics]"]
  
   nash -- conway [label="Co-workers"]
   kogler -- flajolet [label="Conference"]
@@ -155,4 +157,6 @@ graph handshake {
   russell -- godel [label="Godel's presentation"]
   hilbert -- vonneumann [label="Godel's presentation"]
   hilbert -- russell [label="Godel's presentation"]
+  ricbit -- wolfram [label="Insper 18"]
+  wolfram -- feynman [label="Student"]
 }
