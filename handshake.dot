@@ -72,9 +72,12 @@ graph handshake {
   nash [label="John Nash\n[Nash Equilibrium]"]
   wolfram [label="Stephen Wolfram\n[Mathematica]"]
   feynman [label="Richard Feynman\n[Quantum electrodynamics]"]
+  marissa [label="Marissa Mayer\n[Yahoo CEO]"]
+  sergey [label="Sergey Brin\n[Google founder]"]
+  obama [label="Barack Obama\n[POTUS]"]
  
   nash -- conway [label="Co-workers"]
-  kogler -- flajolet [label="Conference"]
+  kogler -- flajolet [label="Party"]
   ricbit -- rigues [label="Friends"]
   ricbit -- kogler [label="Teacher"]
   rigues -- wozniak [label="Advisor"]
@@ -159,4 +162,9 @@ graph handshake {
   hilbert -- russell [label="Godel's presentation"]
   ricbit -- wolfram [label="Insper 18"]
   wolfram -- feynman [label="Student"]
+  einstein -- feynman [label="Graduate Seminar"]
+  feynman -- vonneumann [label="Graduate Seminar"]
+  ricbit -- marissa [label="Co-workers"]
+  marissa -- sergey [label="Co-workers"]
+  sergey -- obama [label="Business meeting"]
 }
