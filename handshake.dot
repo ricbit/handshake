@@ -80,7 +80,7 @@ graph handshake {
   kogler -- flajolet [label="Party"]
   ricbit -- rigues [label="Friends"]
   ricbit -- kogler [label="Teacher"]
-  rigues -- wozniak [label="Advisor"]
+  rigues -- wozniak [label="Interview"]
   barrow -- newton [label="Advisor"]
   viviani -- barrow [label="Advisor"]
   torricelli -- viviani [label="Advisor"]
